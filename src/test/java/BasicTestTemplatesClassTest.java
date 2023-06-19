@@ -33,7 +33,7 @@ import java.util.concurrent.TimeUnit;
     //действия, которые должны выполняться в начале каждого тест-сценария
     @Before
     public void beforeClassMethod() {
-        driver.get("https://dostavka.auchan.ru/");//Открыть в браузере url "https://dostavka.auchan.ru/"
+        driver.get("https://www.auchan.ru/");//Открыть в браузере url "https://www.auchan.ru/"
         driver.manage().deleteAllCookies();//Удалить все куки
         driver.navigate().refresh();//Обновить страницу
         basicTestTemplates = new BasicTestTemplates(driver);//Используемые классы в данном тест-сценарии
