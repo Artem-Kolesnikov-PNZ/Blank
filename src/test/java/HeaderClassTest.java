@@ -33,7 +33,7 @@ import java.util.concurrent.TimeUnit;
 
     @Before
     public void beforeClassMethod() {
-        driver.get("https://dostavka.auchan.ru/");
+        driver.get("https://www.auchan.ru/");
         driver.manage().deleteAllCookies();
         driver.navigate().refresh();
         header = new Header(driver);
