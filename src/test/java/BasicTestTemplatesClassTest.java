@@ -66,7 +66,7 @@ import java.util.concurrent.TimeUnit;
 
     //////////////////////?/////////////////Тест-Сценарии///////////////////////////////////////////////////
     @Test
-    @Link(name = "Ссылка на страницу Корзины", url = "https://dostavka.auchan.ru/cart/")//Добавление в allure ссылки на нужную страницу
+    @Link(name = "Ссылка на страницу Корзины", url = "https://www.auchan.ru/cart/")//Добавление в allure ссылки на нужную страницу
     @Severity(SeverityLevel.MINOR)//Критичность тест-сценария для отображении в allure (BLOCKER, CRITICAL,MINOR, NORMAL, TRIVIAL)
     @DisplayName("Применение основных событий на странице корзины")//Название тест-сценария в allure
     @Owner(value = "Большакова Полина Денисовна")//Инициалы того, кто написал тест-сценарий
